@@ -1,0 +1,64 @@
+.sale
+    position: relative
+    display: flex
+    justify-content: space-between
+    min-height: 648px
+    padding-top: 55px
+    padding-bottom: 60px
+    background: url('../img/sale-bg.jpg') center center/cover no-repeat
+    cursor: default
+    &__label
+        font-weight: 700
+        font-size: 16px
+        margin-bottom: 14px
+        color: #fff
+        text-transform: uppercase
+    &__old-price
+        margin-top: 160px
+        color: #cbcbcb
+        font-weight: 700
+        font-size: 45px
+        position: relative
+        &::after
+            content: ''
+            width: 112px
+            height: 6px
+            background-color: #cbcbcb
+            position: absolute
+            top: 24px
+            left: 0
+    &__new-price
+        margin-top: 18px
+        font-weight: 700
+        font-size: 77px
+        color: $main-color
+    
+.sale-end
+    padding-top: 38px
+    padding-left: 58px
+    min-height: 540px
+    width: 480px
+    background-color: rgba(255, 255, 255, 0.05)
+    backdrop-filter: blur(4px)
+    position: absolute
+    top: 55px
+    right: 60px
+    &__label
+        font-weight: 700
+        font-size: 16px
+        margin-bottom: 46px
+        text-transform: uppercase
+        color: #fff
+    .end-list
+        list-style-type: none
+        &__item
+            font-weight: 700
+            font-size: 55px
+            color: #fff
+            margin-bottom: 53px
+            text-transform: uppercase
+            span 
+                color: $main-color
+        
+
+

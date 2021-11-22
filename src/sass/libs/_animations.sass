@@ -1,0 +1,34 @@
+@keyframes fadeIn
+    0%
+        opacity: 1
+        
+    100%
+        opacity: 0
+
+@keyframes fadeOut
+    0%
+        opacity: 0
+        
+    100%
+        opacity: 1
+
+@keyframes backgroundZoomIn
+    0%
+        background-size: 250%
+    100%
+        background-size: 280%
+
+@keyframes backgroundZoomOut
+    0%
+        background-size: 300%
+    100%
+        background-size: 250%
+.fadeIn 
+    animation: fadeIn 0.5s
+
+.fadeOut 
+    animation: fadeOut 0.5s
+.backgroundZoomOut
+    animation: backgroundZoomOut 6s
+    animation-fill-mode: forwards
+        

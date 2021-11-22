@@ -1,0 +1,39 @@
+.catalog 
+    min-height: 680px
+    padding-top: 68px
+    padding-bottom: 131px
+.catalog-item
+    background: url('../img/promo-bg2.jpg') center center/cover no-repeat
+    padding: 30px 30px 40px 30px
+    border-radius: 3px
+    position: relative
+    &__subtitle
+        font-weight: 700
+        font-size: 22px
+        width: 150px
+        margin-bottom: 12px
+        text-transform: uppercase
+        color: #fff
+    &__price
+        position: absolute
+        right: 20px
+        top: 0
+        width: 45px
+        height: 60px
+        background-color: $main-color
+        font-weight: 700
+        font-size: 16px
+        color: #fff
+        text-align: center
+        padding-top: 16px
+        border-bottom-left-radius: 5px
+        border-bottom-right-radius: 5px
+
+
+.catalog-content
+    margin-top: 33px
+    display: grid
+    grid-template-columns: repeat(3, calc(33% - 15px))
+    grid-template-rows: repeat(2, 170px)
+    gap: 30px
+

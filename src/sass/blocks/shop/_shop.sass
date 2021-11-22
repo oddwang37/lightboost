@@ -1,0 +1,35 @@
+.shop-wrapper
+    padding-top: 55px
+    padding-bottom: 125px
+.shop-inner
+    margin-top: 75px
+    display: flex
+    justify-content: space-between
+.shop-filter-section
+    margin-top: 55px
+.shop-filter-section
+    &:nth-child(1)
+        margin-top: 0
+.shop-filter
+    &__category-name
+        font-weight: 500
+        font-size: 22px
+        text-transform: uppercase
+    &__line
+        margin-top: 20px
+        width: 270px
+        color: rgba(31, 39, 27, 0.08)
+
+.filter-list
+    list-style-type: none
+    &__item
+        margin-top: 20px
+        font-weight: 500
+        font-size: 18px
+        &_active
+            color: $main-color
+
+.shop-catalog
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    gap: 25px
